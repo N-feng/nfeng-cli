@@ -1,0 +1,21 @@
+{
+  "source": "/src/template",
+  "dist": "/build",
+  "questionConfig": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Module name"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "Module description"
+    },
+    "namespace": {
+      "type": "string",
+      "required": true,
+      "label": "dva model namespace"
+    }
+  }
+}
