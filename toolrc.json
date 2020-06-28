@@ -2,20 +2,15 @@
   "source": "/src/template",
   "dist": "/build",
   "questionConfig": {
-    "name": {
+    "configPath": {
       "type": "string",
       "required": true,
-      "label": "Module name"
+      "message": "json配置路径"
     },
-    "description": {
+    "filePath": {
       "type": "string",
       "required": true,
-      "label": "Module description"
-    },
-    "namespace": {
-      "type": "string",
-      "required": true,
-      "label": "dva model namespace"
+      "message": "生成文件路径"
     }
   }
 }
