@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "nfeng": "bin/mytool.js",
-    "crud-init": "bin/index.js"
+    "nfeng-cli": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
